@@ -1,0 +1,164 @@
+body {
+  font-family: "Bungee", sans-serif;
+  background-color: #1b1833;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  img {
+    max-width: 70px;
+    padding-left: 20px;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    a {
+      color: white;
+      font-size: 30px;
+      &:hover {
+        text-decoration: underline;
+        color: #0376f2;
+      }
+    }
+  }
+}
+
+.banner {
+  background-image: url("https://imgs.search.brave.com/xXWdr_PsPCZvam5OhbvehIUlhbxGEKGtiOPQi4GxBl4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvanVz/dGljZS1sZWFndWUt/Y29taWNzLWZhbmFy/dC01cWJ4cm94a2lj/anlmb3J1LmpwZw");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    background-color: #0e0d024f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 48px;
+    color: white;
+    gap: 15px;
+    p {
+      font-size: 30px;
+      font-family: "Kaushan Script", cursive;
+    }
+    a {
+      background-color: #1b1833;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 24px;
+      border: 2px solid #1b1833;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: transparent;
+        color: white;
+      }
+    }
+  }
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  gap: 100px;
+  h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 60px;
+    color: white;
+  }
+  .container_categorias {
+    max-width: 50vw;
+    display: flex;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 25px;
+      border: 1px solid white;
+      padding: 30px 20px;
+      color: white;
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 2;
+        text-align: center;
+      }
+      a {
+        border: 2px solid white;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "Kaushan Script", cursive;
+        font-size: 24px;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          background-color: white;
+          color: #1b1833;
+        }
+      }
+    }
+  }
+}
+
+.sobre {
+  background-image: url("https://universoheroico.ig.com.br/wp-content/uploads/2024/07/Herois-da-DC-que-precisam-aparecer-no-DCU-capitulo-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    background-color: #f9f6a6c2;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #2a322b;
+    h2 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 60px;
+    }
+    p {
+      line-height: 2;
+    }
+  }
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 2px solid #2a322b;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  span {
+    align-self: center;
+    font-size: 15px;
+    padding-right: 15px;
+  }
+}
